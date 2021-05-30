@@ -1,4 +1,4 @@
-# entrega_semana7
+# Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
  
 Este repositorio contiene los artefactos construídos para las pruebas e2e con generacion de datos pool de datos prio, pseudo aleatorios y aleatorio, para la consecución de los objetivos definidos en la estrategia de pruebas sobre las versiones v3.42.5 de la interfaz de usuario de administración de Ghost.
 
