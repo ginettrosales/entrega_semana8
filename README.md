@@ -61,6 +61,14 @@ Detro del directorio `entrega_semana8/Exploratorias` se encuentra el documento `
 #### Ejecución
 - Ejecutar `node index.js`
 
+#### Ver reporte de resultados
+- Leugo de ejecutar la herramieta se generara el reporte de los resultados
+- Ingregar al directorio `/results`
+- Instalar la libreria para crear el servidor `npm install -g http-servernpm install -g http-server`
+- Para activar servidor ejecutar `http-server`
+- Ahora puede acceder desde un navegador a la dirección que se le indica en la consola. Ejemplo: http://127.0.0.1:8080/
+- Seleccionar el directorio del reporte
+
 ## Ejecución de pruebas E2E
 
 Las pruebas E2E de Cypress conforman esenarios completos dependiendo de cada funcionalidad 
@@ -81,15 +89,15 @@ Consideraciones:
 - Debe haber creado un usuario en gost para el inicio de sesión.
 - Las credenciales de este usuario se deben configurar en el archivo cypress.json, en las variables de entorno 'env'. (Este archivo se encuentra dentro de la carpeta cypress-tests)
 
-# Validacion de Datos
+## Validacion de Datos
 
-# Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
+### Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
 
 Este repositorio contiene los artefactos construídos para las pruebas e2e con generacion de datos pool de datos prio, pseudo aleatorios y aleatorio, para la consecución de los objetivos definidos en la estrategia de pruebas sobre las versiones v3.42.5 de la interfaz de usuario de administración de Ghost. Los archivos necesarios para su ejecución podrá encontrarlos en el siguiente enlace:
 
 * [Validación de Datos](./validacion_de_datos/) 
 
-# Prerequisitos
+#### Prerequisitos
 Una versión actualizada de Node.js instalada en su computadora.
 Una versión actualizada del manejador de paquetes npm instalada en su computadora.
 Instalar la versión 3.42.5 de Ghost en su máquina local siguiendo el tutorial del siguiente enlace Tutorial - [Ghost](https://misovirtual.virtual.uniandes.edu.co/codelabs/ghost-local-deployment/index.html#4)  
@@ -105,10 +113,10 @@ cd entrega_semana8/validacion_de_datos
 Finalmente instale las librerías requeridas:
 npm install
 
-# Configuración de parámetros de ejecución
+#### Configuración de parámetros de ejecución
 En una terminal ubíquese en el directorio entrega_semana8 y abra el archivo cypress.json en el editor de texto de su preferencia. Establezca el valor de las variables email y password con los valores que utilizó cuando creó la cuenta de usuario en Ghost.
 
-# Ejecución de las pruebas E2E
+#### Ejecución de las pruebas E2E
 En una terminal ubíquese en el directorio entrega_semana8 y ejecute el siguiente comando para probar todos los escenarios:
 
 `./node_modules/.bin/cypress run -C cypress.json` o `cypress open` y ejecute la suite de prueba
