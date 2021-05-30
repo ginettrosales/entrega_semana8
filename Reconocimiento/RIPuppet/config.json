@@ -1,0 +1,9 @@
+{
+    "url": "http://localhost:2368/",
+    "headless": true,
+    "depthLevels": 3,
+    "inputValues": false,
+    "values": {"ember8": "<uauraio>",
+        "ember10": "<clave>"},
+    "browsers": ["chromium"]
+}
