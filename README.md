@@ -80,3 +80,34 @@ Para ejecutar estas pruebas debe seguir los siguientes pasos:
 Consideraciones:
 - Debe haber creado un usuario en gost para el inicio de sesión.
 - Las credenciales de este usuario se deben configurar en el archivo cypress.json, en las variables de entorno 'env'. (Este archivo se encuentra dentro de la carpeta cypress-tests)
+
+## Validacion_de_datos
+# Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
+ 
+Este repositorio contiene los artefactos construídos para las pruebas e2e con generacion de datos pool de datos prio, pseudo aleatorios y aleatorio, para la consecución de los objetivos definidos en la estrategia de pruebas sobre las versiones v3.42.5 de la interfaz de usuario de administración de Ghost. Los archivos necesarios para su ejecución podrá encontrarlos en el siguiente enlace:
+
+* [Validación de Datos](./validacion_de_datos/) 
+
+# Prerequisitos
+Una versión actualizada de Node.js instalada en su computadora.
+Una versión actualizada del manejador de paquetes npm instalada en su computadora.
+Instalar la versión 3.42.5 de Ghost en su máquina local siguiendo el tutorial del siguiente enlace Tutorial - [Ghost](https://misovirtual.virtual.uniandes.edu.co/codelabs/ghost-local-deployment/index.html#4)  
+Crear una cuenta de usuario en Ghost (Incluído en el tutorial del anterior punto).
+
+Instalar librerías
+Clone el repositorio de pruebas utilizando uno de los siguientes comandos:
+git clone https://github.com/ginettrosales/entrega_semana8.git
+
+Ahora navegue hasta el subdirectorio entrega_semana8 con el siguiente comando:
+cd entrega_semana8/validacion_de_datos
+
+Finalmente instale las librerías requeridas:
+npm install
+
+# Configuración de parámetros de ejecución
+En una terminal ubíquese en el directorio entrega_semana8 y abra el archivo cypress.json en el editor de texto de su preferencia. Establezca el valor de las variables email y password con los valores que utilizó cuando creó la cuenta de usuario en Ghost.
+
+# Ejecución de las pruebas E2E
+En una terminal ubíquese en el directorio entrega_semana8 y ejecute el siguiente comando para probar todos los escenarios:
+
+`./node_modules/.bin/cypress run -C cypress.json` o `cypress open` y ejecute la suite de prueba
