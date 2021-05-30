@@ -1,0 +1,52 @@
+{
+    "@user1": {
+        "URL": "http://localhost:2368/ghost/#/signin",
+        "EMAIL": "g.rosales@uniandes.edu.co",
+        "PASSWORD": "misociclo2",
+        "URL_PAGES": "http://localhost:2368/ghost/#/pages",
+        "URL_POSTS": "http://localhost:2368/ghost/#/posts",
+        "URL_STAFF": "http://localhost:2368/ghost/#/staff",
+        "URL_GHOST": "http://localhost:2368/ghost/#/staff/ghost"
+
+    },
+    "@user2": {
+        "URL": "http://localhost:2368/ghost/#/signin",
+        "EMAIL": "g.rosales@uniandes.edu.co",
+        "PASSWORD": "misociclo2",
+        "URL_PAGES": "http://localhost:2368/ghost/#/pages",
+        "URL_POSTS": "http://localhost:2368/ghost/#/posts",
+        "URL_STAFF": "http://localhost:2368/ghost/#/staff",
+        "URL_GHOST": "http://localhost:2368/ghost/#/staff/ghost"
+
+    },
+    "@user3": {
+        "URL": "http://localhost:2368/ghost/#/signin",
+        "EMAIL": "g.rosales@uniandes.edu.co",
+        "PASSWORD": "misociclo2",
+        "URL_PAGES": "http://localhost:2368/ghost/#/pages",
+        "URL_POSTS": "http://localhost:2368/ghost/#/posts",
+        "URL_STAFF": "http://localhost:2368/ghost/#/staff",
+        "URL_GHOST": "http://localhost:2368/ghost/#/staff/ghost"
+
+    },
+    "@user4": {
+        "URL": "http://localhost:2368/ghost/#/signin",
+        "EMAIL": "g.rosales@uniandes.edu.co",
+        "PASSWORD": "misociclo2",
+        "URL_PAGES": "http://localhost:2368/ghost/#/pages",
+        "URL_POSTS": "http://localhost:2368/ghost/#/posts",
+        "URL_STAFF": "http://localhost:2368/ghost/#/staff",
+        "URL_GHOST": "http://localhost:2368/ghost/#/staff/ghost"
+
+    },
+    "@user5": {
+        "URL": "http://localhost:2368/ghost/#/signin",
+        "EMAIL": "g.rosales@uniandes.edu.co",
+        "PASSWORD": "misociclo2",
+        "URL_PAGES": "http://localhost:2368/ghost/#/pages",
+        "URL_POSTS": "http://localhost:2368/ghost/#/posts",
+        "URL_STAFF": "http://localhost:2368/ghost/#/staff",
+        "URL_GHOST": "http://localhost:2368/ghost/#/staff/ghost"
+
+    }
+  }
