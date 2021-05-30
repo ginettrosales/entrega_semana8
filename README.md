@@ -40,21 +40,26 @@ Detro del directorio `entrega_semana8/Exploratorias` se encuentra el documento `
 - Para la modificar mas valores puede consultar el siguiente tutorial https://misovirtual.virtual.uniandes.edu.co/codelabs/monkey-cypress-tutorial/index.html#0
 
 #### Ejecución
-- Ejecutar cypress `run --config-file ./monkey-config.json`
+- Ejecutar `run --config-file ./monkey-config.json`
 
 ### Rippers
+#### Prerequisitos
+- Versión actualizada de `Node.js` instalada en su computadora. Documentación: https://nodejs.org/es/download/
+- Versión actualizada del manejador de paquetes npm instalada en su computadora.
+- Manejador de versiones `Git` instalado en su computadora (opcional).
+- Tener Ghost v3.42.5 instalado e incicar con el comando `ghost start`
 
+#### Instalación
+- Dento del directorio clonar el repositorio o descargar el archivo `.zip`
+- Ingresar al siguiente directorio `entrega_semana8/Reconocimiento/RIPuppetCoursera`
+- Instalar dependencias. Ejecutar `npm install`
 
+#### Configuración
+- Modificar `baseUrl` en `config.json`
+- Para la modificar mas valores puede consultar el siguiente tutorial https://misovirtual.virtual.uniandes.edu.co/codelabs/web-gui-ripper/index.html#0
 
-## Semana 2, 3 y 4
-Creacion e2e
-
-## Semana 4 y 5
-VRT
-
-## Semana 6 7 8
-Validacion y VRT
-
+#### Ejecución
+- Ejecutar `node index.js`
 
 ## Ejecución de pruebas E2E
 
