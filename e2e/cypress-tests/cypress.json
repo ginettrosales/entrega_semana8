@@ -1,0 +1,21 @@
+{
+    "baseUrl": "http://localhost:2368/",
+    "defaultCommandTimeout": 10000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "chromeWebSecurity":false,
+    "screenshotsFolder":"cypress/screenshots/v3.42.5",
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "env" : {
+        "baseUrl": "http://localhost:2368/",
+        "email" : "g.rosales@uniandes.edu.co",
+        "pass": "misociclo2",
+        "baseUrl_2":"http://localhost:2368/ghost/",
+        "userEmail":"g.rosales@uniandes.edu.co",
+        "userPsswd":"misociclo2",
+        "userEmail_selector":"#ember8",
+        "userPsswd_selector":"#ember10",
+        "loginButton_selector":"#ember12 > span"
+    }
+}
