@@ -28,8 +28,10 @@ Para ejecutar estas pruebas debe seguir los siguientes pasos:
 - Inicie la App Ghost con el comando ghost start
 - Ingrese a la carpeta e2e del proyecto, después ingrese a la carpeta cypress-tests.
 - Inicie una consola desde el directorio cypress-tests y ejecute el comando 'npm install'.
-- Ejecute el comando 'cypress run --headless' o 'cypress open' (Si ejecuta el segundo comando se desplegará una consola en un navegador, aquí deberá dirijirse a la prueba que necesite ejecutar).
+- Ejecute el comando 'cypress run --headless' o 'cypress open' (Si ejecuta el segundo comando se desplegará una consola en un navegador, aquí deberá dirijirse a la pestaña de Tests y seleccionar la prueba que quiera ejecutar).
 - Podrá Visualizar los resultados de las pruebas en la consola si ejecutó el primer comando, o en la consola de Cypress si ejecuto el segundo comando.
+- Si se dirige a la carpeta del repositorio cypress-tests/cypress/screenshots podrá encontrar capturas de pantalla de las pruebas realizadas.
+- Si se dirige a la carpeta del repositorio cypress-tests/cypress/videos podrá encontrar videos con el escenario de pruebas ejecutado paso a paso.
 
 Consideraciones:
 - Debe haber creado un usuario en gost para el inicio de sesión.
