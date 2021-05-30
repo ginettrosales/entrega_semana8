@@ -81,8 +81,8 @@ Consideraciones:
 - Debe haber creado un usuario en gost para el inicio de sesión.
 - Las credenciales de este usuario se deben configurar en el archivo cypress.json, en las variables de entorno 'env'. (Este archivo se encuentra dentro de la carpeta cypress-tests)
 
-## Validacion_de_datos
-# Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
+# Validacion_de_datos
+## Pruebas e2e con pool de datos, pseudo aleatorios y aleatorios
  
 Este repositorio contiene los artefactos construídos para las pruebas e2e con generacion de datos pool de datos prio, pseudo aleatorios y aleatorio, para la consecución de los objetivos definidos en la estrategia de pruebas sobre las versiones v3.42.5 de la interfaz de usuario de administración de Ghost. Los archivos necesarios para su ejecución podrá encontrarlos en el siguiente enlace:
 
