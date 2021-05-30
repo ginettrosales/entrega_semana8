@@ -1,11 +1,50 @@
 # entrega_semana8
-Entrega final pruebas automatizadas
+Entrega final pruebas automatizadas. En este repositorio se encuentra cada una de las pruebas escogidas para la estrategia de pruebas que se ejecutará en 8 semanas. La aplicación a probrar es ### Ghost v3.42.5.
 
-## Panificacion por semana
+Cada disrectorio contempla la tecnica de prueba que se utilizara segun la iteracuion en curso.
 
-## Semana 1
-Exploratorias
-Monkeys
+#### Iteracion 1
+- Pruebas explratorias manuales. `entrega_semana8/Exploratorias`
+- Pruebas de Reconocimiento `entrega_semana8/Reconocimiento`
+
+#### Iteración 2
+- Pruebas de extremo a extremo (E2E) `entrega_semana8/e2e`
+
+#### Iteración 3
+- Pruebas de regresión visual (VRT) `entrega_semana8/vrt`
+
+#### Ietración 4
+- Pruebas de validación de datos `entrega_semana8/Validación de datos`
+
+
+## Exploratorias manuales
+
+Detro del directorio `entrega_semana8/Exploratorias` se encuentra el documento `inventario-pruebas-exploratorias_v3.42.5.xlsx`. En el mismo se listan las pruebas ejecutadas que sirven de referencia para crear el oráculo explícito. Dentro del directorio se puede encontrar las evidencias que soportan y describen los pasos ejecutados para la reproduccion de las pruebas.
+
+## Pruebas de reconocimiento automáticas
+### Monkeys
+#### Prerequisitos
+- Versión actualizada de `Node.js` instalada en su computadora. Documentación: https://nodejs.org/es/download/
+- Versión actualizada del manejador de paquetes npm instalada en su computadora.
+- Manejador de versiones `Git` instalado en su computadora (opcional).
+- Tener Ghost v3.42.5 instalado e incicar con el comando `ghost start`
+
+#### Instalación
+- Crear el directorio donde se ejecutará la herramienta
+- Dento del directorio clonar el repositorio o descargar el archivo `.zip`
+- Ingresar al siguiente directorio `entrega_semana8/Reconocimiento/monkey-cypress`
+- Instalar dependencias. Ejecutar `npm install`
+
+#### Configuración
+- Modificar `baseUrl` en `monkey-config.json`
+- Para la modificar mas valores puede consultar el siguiente tutorial https://misovirtual.virtual.uniandes.edu.co/codelabs/monkey-cypress-tutorial/index.html#0
+
+#### Ejecución
+- Ejecutar cypress `run --config-file ./monkey-config.json`
+
+### Rippers
+
+
 
 ## Semana 2, 3 y 4
 Creacion e2e
@@ -36,7 +75,3 @@ Para ejecutar estas pruebas debe seguir los siguientes pasos:
 Consideraciones:
 - Debe haber creado un usuario en gost para el inicio de sesión.
 - Las credenciales de este usuario se deben configurar en el archivo cypress.json, en las variables de entorno 'env'. (Este archivo se encuentra dentro de la carpeta cypress-tests)
-
-
-
-
