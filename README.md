@@ -17,7 +17,7 @@ Cada disrectorio contempla la tecnica de prueba que se utilizara segun la iterac
 
 Los escenarios seleccionados para las pruebas de regresión visual pertenecen a funcionalidades de Ghost descritas a continuación:<br> 
 
-# Funcionalidades a comparar `Resembler.js`
+#### Funcionalidades a comparar `Resembler.js`
 - Login - E01 Ingresar credenciales incorrectas
 - Post  - E01 Crear post y publicar
 - Pages - E01 Crear nuevo page como draf
