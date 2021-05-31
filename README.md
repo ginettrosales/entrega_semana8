@@ -1,5 +1,5 @@
 # entrega_semana8
-Entrega final pruebas automatizadas. En este repositorio se encuentra cada una de las pruebas escogidas para la [estrategia de pruebas](https://uniandes-my.sharepoint.com/:w:/g/personal/g_rosales_uniandes_edu_co/EU8LNDZChERMmZw8U5bi8PYBTs1paXTjvR4MpXMnHDHL7w?e=UnN42p) que se ejecutará en 8 semanas. La aplicación a probrar es ### Ghost v3.42.5.
+Entrega final pruebas automatizadas. En este repositorio se encuentra cada una de las pruebas escogidas para la [estrategia de pruebas](https://github.com/ginettrosales/entrega_semana8/blob/2b79b69a1f2ec88f3264adfe27b18e9e1ba065d7/estrategia-pruebas.pdf) que se ejecutará en 8 semanas. La aplicación a probrar es ### Ghost v3.42.5.
 
 Cada disrectorio contempla la tecnica de prueba que se utilizara segun la iteracuion en curso.
 
