@@ -1,0 +1,9 @@
+{
+    "url_screenshots":"./cypress/screenshots/",
+    "browsers": ["Login -- E01-Ingresar credenciales incorrectas -- after each hook.png", 
+                 "Staff -- E01-Crear invitacion -- after each hook.png",
+                 "Pages -- E01-Crear nuevo Page como Draft -- after each hook.png",
+                 "Post -- E01-Crear nuevo post y publicar -- after each hook.png",
+                 "Tags -- E01-Editar un tag publico -- after each hook.png"]
+     
+}
