@@ -13,6 +13,89 @@ Cada disrectorio contempla la tecnica de prueba que se utilizara segun la iterac
 #### Iteración 3
 - Pruebas de regresión visual (VRT) `entrega_semana8/vrt`
 
+## Pruebas de regresión visual
+
+Los escenarios seleccionados para las pruebas de regresión visual pertenecen a funcionalidades de Ghost descritas a continuación:<br> 
+
+# Funcionalidades a comparar `Resembler.js`
+- Login - E01 Ingresar credenciales incorrectas
+- Post  - E01 Crear post y publicar
+- Pages - E01 Crear nuevo page como draf
+- Staff - E01 Crear una invitacion
+- Tags  - E01 Editar un tag publico
+
+El código de los escenarios de pruebas de extremo a extremo implementados con Cypress y la regresión visual implementada con ResembleJS se encuentran en el directorio [vrt-resemble-cypress](vrt-resemble-cypress).
+
+#### Prerequisitos
+
+- Una versión actualizada de Node.js instalada en su computadora.
+- Una versión actualizada del manejador de paquetes npm instalada en su computadora. 
+- Instalar las versiones 3.3.0 y 3.42.5 de Ghost en su máquina local siguiendo el tutorial del siguiente enlace [Tutorial - Ghost](https://misovirtual.virtual.uniandes.edu.co/codelabs/ghost-local-deployment/index.html#0). Tenga en cuenta la asignación de un puerto diferente a cada instancia de Ghost. Para lograr este propósito, en la raíz del directorio de instalación de cada una de las instancias de Ghost abra el archivo `config.development.json` y establezca los valores de los atributos `url` y `port` tomando cómo referencia el siguiente ejemplo:
+
+`"url": "http://localhost:2368/",`
+  `"server": {`
+    `"port": 2368,`
+    `"host": "127.0.0.1"`
+  `},`
+    
+- Una vez realizados estos ajustes, debe detener y reiniciar Ghost para que los cambios se apliquen.
+- Crear una cuenta de usuario en cada una de las instancias de Ghost (Incluído en el tutorial del anterior punto).
+
+#### Instalar librerías
+
+- Clone el repositorio de pruebas en su máquina utilizando uno de los siguientes comandos:
+
+`git clone https://github.com/ginettrosales/entrega_semana8.git`
+
+ó
+
+`git clone git@github.com:ginettrosales/entrega_semana8.git`
+
+- Ahora navegue hasta el subdirectorio `entrega_semana8/vrt-resemble-cypress` con el siguiente comando:
+
+`cd entrega_semana8/vrt-resemble-cypress/`
+
+- Finalmente instale las librerías requeridas:
+
+`npm install`
+
+#### Configuración de parámetros de ejecución
+
+En una terminal ubíquese en el directorio `entrega_semana8/vrt-resemble-cypress` y abra los archivos `cypress.json` y `cypress-3.3.0.json` en el editor de texto de su preferencia. Estos archivos tienen varios parámetros de configuración que se utilizarán para ejecutar las pruebas sobre cada una de las versiones instaladas de Ghost. El archivo `cypress.json` contiene los parámetros de configuración de la instancia con la versión `3.42.5` de Ghost y el archivo `cypress-3.3.0.json` contiene los parámetros de configuración de la instancia con la versión `3.3.0` de Ghost. Establezca el valor de los siguientes parámetros en cada uno de los archivos de acuerdo con el valor que corresponda:
+
+- `baseUrl`
+- `email`
+- `pass`
+- `baseUrl_2`
+- `userEmail`
+- `userPsswd`
+- `userEmail_selector`
+- `userPsswd_selector`
+- `loginButton_selector`
+
+#### Ejecución de las pruebas E2E
+
+En una terminal ubíquese en el directorio `entrega_semana8/vrt-resemble-cypress` y ejecute el siguiente comando para correr las pruebas de extremo a extremo, recopilar las evidencias durante la ejecución de cada paso, comparar las diferencias entre las imágenes recopiladas de cada versión y obtener un reporte consolidado con el resultado:
+
+- Ahora navegue hasta el subdirectorio `entrega_semana8/vrt-resemble-cypress` con el siguiente comando:
+
+`cd entrega_semana8/vrt-resemble-cypress/`
+
+- Ejecute el siguiente comando para correr las pruebas de extremo a extremo con la versión `3.3.0` de Ghost 
+
+`cypress run -C cypress-3.3.0.json -b chrome`
+
+- Luego ejecute el siguiente comando para correr las pruebas de extremo a extremo con la versión `3.42.5` de Ghost 
+
+`cypress run -C cypress.json -b chrome`
+
+- Por ultimo ejecute el siguiente comando para comprobar que los resultados de la prueba salgan de forma adecuada:
+
+`node index.js`
+
+Cuando finalice la ejecución del script vaya al directorio `cypress/results` y abra el archivo `report.html` para ver el resultado de la regresión visual.
+
+
 #### Ietración 4
 - Pruebas de validación de datos `entrega_semana8/Validación de datos`
 
