@@ -1,0 +1,23 @@
+{
+    "baseUrl": "http://localhost:2368/",
+    "defaultCommandTimeout": 10000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "chromeWebSecurity":false,
+    "screenshotsFolder":"cypress/screenshots/v3.3.0",
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "env" : {
+        "baseUrl": "http://localhost:2368/",
+        "email" : "m.gaitans@uniandes.edu.co",
+        "pass": "Gosh1075211814",
+        "baseUrl_2":"http://localhost:2368/ghost/",
+        "userEmail":"m.gaitans@uniandes.edu.co",
+        "userPsswd":"Gosh1075211814",
+        "userEmail_selector":"#ember8",
+        "userPsswd_selector":"#ember10",
+        "loginButton_selector":"#ember12 > span"
+    },
+    "appReference": "before",
+    "appVersion": "3.3.0"
+}
